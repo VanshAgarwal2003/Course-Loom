@@ -1,0 +1,19 @@
+.formDiv{
+    background-color: rgb(249, 248, 244);
+    position: relative;
+    top:4em;
+    padding: 70px 70px;
+    width:50vw;
+    display: block;
+    border-radius: 15px;
+    margin: auto;
+}
+.dropdown{
+    margin-bottom: 2em;
+    border-radius: 5px;
+}
+.submitbutton{
+    display: block;
+    margin: auto;
+    width: 30%;
+}

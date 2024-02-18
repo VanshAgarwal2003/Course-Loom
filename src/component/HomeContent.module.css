@@ -1,0 +1,63 @@
+.image{
+    width:500px;
+    height: 380px;
+    display: block;
+    margin: auto;
+    position: relative;
+    right:3em;
+    bottom: 1.5em;
+}
+.contentContainer{
+    display: flex;
+    flex-direction: row;
+}
+.mainContainer{
+    height: 60vh;
+    position: relative;
+    top: 45em;
+}
+.contentContainer h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contentContainer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0px;
+}
+.upperContent{
+    position: absolute;
+    top: 6em;
+    right:0;
+    width:100%;
+    background-color: transparent;
+    margin-top: auto; 
+}
+.textContent{
+    position: absolute;
+    right:2em;
+    top:10em;
+    width:40vw;
+}
+.upperContentHeading{
+    font-weight: 600;
+    font-size: 2.9em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.upperContentPara{
+    font-weight: 400;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.upperContent::before{
+    content: "";
+    background: url('/images/3718985.jpg') center center/cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width:55%;
+    float: left;
+  
+    height: 85vh;
+    z-index: -1;
+    opacity: 0.8;
+}

@@ -1,0 +1,31 @@
+.webContainer{
+    transition: 0.5s;
+    background-color:  #00A9FF;
+    width:100%;
+    top:0;
+    box-shadow: 1px 1px 4px black;
+}
+.webContainer ul li a{ 
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.webContainer a:hover{
+    color: rgb(228, 224, 224);
+}
+.navScroll{
+    transition: 0.8s;
+    top:0;
+    width: 100%;
+    background-color: #000000;
+}
+
+.navScroll ul li a{
+    color:white;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+.navScroll a:hover{
+    color: rgb(255, 255, 255);
+}
+

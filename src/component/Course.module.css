@@ -1,0 +1,32 @@
+.upperContent{
+    position: relative;
+    top: 30em;
+}
+.content::before{
+    content: "";
+    background: url('/images/9963615.jpg') center center/cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width:100vw;
+    float: left;
+  
+    height: 80vh;
+    z-index: -1;
+    opacity: 0.85;
+}
+.content{
+    position: relative;
+    min-height: 100vh;
+}
+
+.textContent{
+    color:black;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top:4em;
+    font-size: 1.4em;
+    font-weight: 800;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

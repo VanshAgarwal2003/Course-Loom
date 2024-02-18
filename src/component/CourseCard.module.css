@@ -1,0 +1,76 @@
+.cards{
+        display: block;
+        margin: auto;
+        margin-top: 5em;
+        padding: 10px 35px;
+}
+.courseDifficulty{
+        float: right;
+        border-radius: 15px;
+        width:30%;
+        text-align: center;
+        background-color: rgb(243, 238, 238);
+        padding: 10px 15px;
+}
+.Duration{
+
+        display: inline-block;
+        width:100%;
+        margin-top: 1em;
+        text-align: left;
+        padding: 5px 15px;
+        position: relative;
+        background-color: rgb(244, 243, 243);
+    }
+    .videoPara{
+        margin-top: 1em;
+        width:100%;
+        margin-top: 1em;
+        padding: 5px 15px;
+        text-align: left;
+        background-color: rgb(244, 243, 243);
+    }
+    .videoIcon{
+        position: relative;
+        left:0.5em;
+        width:10%;
+        display: inline-block;
+    }
+    .notesPara{
+        margin-top: 1em;
+        width:100%;
+        margin-top: 1em;
+        padding: 5px 15px;
+        text-align: left;
+        background-color: rgb(244, 243, 243);
+    }
+    .NoteIcon{
+        position: relative;
+        left:0.5em;
+        width:10%;
+        display: inline-block;
+    }
+
+    .liveClassPara{
+        margin-top: 1em;
+        width:100%;
+        margin-top: 1em;
+        padding: 5px 15px;
+        text-align: left;
+        background-color: rgb(244, 243, 243);
+    }
+    .classIcon{
+        position: relative;
+        left:0.5em;
+        width:10%;
+        display: inline-block;
+    }
+    .detailButton{
+        margin-top: 0.5em;
+    }
+    .deleteIcon{
+        float: right;
+        margin: 0.5em 0em;
+        cursor: pointer;
+    }
+
